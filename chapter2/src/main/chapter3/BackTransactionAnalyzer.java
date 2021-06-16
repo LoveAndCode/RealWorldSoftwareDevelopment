@@ -1,4 +1,4 @@
-package main.chapter2;
+package main.chapter3;
 
 import java.io.IOException;
 import java.nio.file.Files;
