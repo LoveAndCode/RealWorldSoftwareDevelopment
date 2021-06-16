@@ -5,11 +5,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.Month;
-import java.util.ArrayList;
 import java.util.List;
 
 public class BackTransactionAnalyzer {
-	private static final String RESOURCES = "src/main/resources/";
+	private static final String RESOURCES = "chapter2/src/main/resources/";
 
 	public static void main(String[] args) throws IOException {
 		final BankStatementCSVParser bankStatementCSVParser = new BankStatementCSVParser();
